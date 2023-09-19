@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.1",
   "name": "Amazon のスポンサー商品を非表示にする",
   "description": "Amazon の検索結果からスポンサー商品/おすすめ商品を消します。",
   "manifest_version": 3,
