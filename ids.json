@@ -6,5 +6,9 @@
   "edge": {
     "crxId": "bmkmfacogjfmnoocnhjnlmdfohihdpmo",
     "productId": "492c5a82-af90-4460-bb2a-b122ddaba7c0"
+  },
+  "firefox": {
+    "id": "amazon-unsponsor@github.com",
+    "slug": "amazonのスポンサー商品を非表示にする"
   }
 }

@@ -9,7 +9,7 @@ delete manifest.action;
 
 manifest.browser_specific_settings = {
   gecko: {
-    id: 'rakuten-pr-blocker@github.com',
+    id: 'amazon-unsponsor@github.com',
   },
 };
 
