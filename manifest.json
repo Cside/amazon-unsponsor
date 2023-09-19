@@ -1,7 +1,7 @@
 {
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "Amazon のスポンサー商品を非表示にする",
-  "description": "Amazon の検索結果からスポンサー商品/おすすめ商品を消します。",
+  "description": "Amazon の検索結果からスポンサー商品・広告を消します。",
   "manifest_version": 3,
   "default_locale": "ja",
   "action": {
