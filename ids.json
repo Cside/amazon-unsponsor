@@ -1,0 +1,17 @@
+{
+  "chrome": {
+    "id": "mighblgjmcfaldhjjkhhbnpbmckeeelo",
+    "developerId": "a66eb7ce-b7b6-4d92-a9cb-35d11a33896a"
+  },
+  "edge": {
+    "crxId": "mjhlhgjoomicojmbbckebkcemighmnah",
+    "productId": "7848008b-830b-4b26-a2c8-a12d921d7661"
+  },
+  "firefox": {
+    "id": "rakuten-pr-blocker@github.com",
+    "slug": "楽天からpr商品を消す"
+  },
+  "greasyFork": {
+    "id": 474585
+  }
+}

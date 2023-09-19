@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-prettier",
+    "stylelint-config-recess-order"
+  ],
+  "plugins": [
+    "stylelint-value-no-unknown-custom-properties",
+    "stylelint-csstree-validator",
+    "stylelint-declaration-block-no-ignored-properties"
+  ],
+  "rules": {
+    "declaration-block-no-duplicate-properties": true,
+    "csstools/value-no-unknown-custom-properties": true,
+    "csstree/validator": true,
+    "plugin/declaration-block-no-ignored-properties": true,
+    "selector-pseudo-class-no-unknown": true
+  }
+}

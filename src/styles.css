@@ -1,0 +1,3 @@
+[class~='searchresultitem'][data-card-type='cpc'] {
+  display: none;
+}
