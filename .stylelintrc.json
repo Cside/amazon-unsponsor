@@ -14,6 +14,7 @@
     "csstools/value-no-unknown-custom-properties": true,
     "csstree/validator": true,
     "plugin/declaration-block-no-ignored-properties": true,
-    "selector-pseudo-class-no-unknown": true
+    "selector-pseudo-class-no-unknown": true,
+    "selector-class-pattern": null
   }
 }

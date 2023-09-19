@@ -1,7 +1,7 @@
 {
   "version": "0.0.2",
-  "name": "楽天の PR 商品を非表示にする",
-  "description": "楽天市場の検索結果から PR 商品（広告商品）を消します。",
+  "name": "Amazon のスポンサー商品を非表示にする",
+  "description": "Amazon の検索結果からスポンサー商品/おすすめ商品を消します。",
   "manifest_version": 3,
   "default_locale": "ja",
   "action": {
@@ -16,7 +16,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["https://search.rakuten.co.jp/search/mall/*"],
+      "matches": ["*://*.amazon.co.jp/s?*"],
       "js": ["src/contentScript.ts"],
       "run_at": "document_start"
     }
