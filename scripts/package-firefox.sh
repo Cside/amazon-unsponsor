@@ -5,7 +5,7 @@ pnpm install
 pnpm run build:firefox
 rm -rf dist-firefox-*.zip source-code source-code-*.zip
 
-version=$(jq -r .version <manifest.json | sed 's/\./-/g')
+version="v$(jq -r .version <manifest.json | sed 's/\./-/g')"
 
 (
     cd dist-firefox
