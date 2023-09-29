@@ -17,7 +17,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.amazon.co.jp/s?*"],
-      "js": ["src/contentScript.ts"],
+      "css": ["css/styles.css"],
       "run_at": "document_end"
     }
   ]
