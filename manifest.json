@@ -1,5 +1,5 @@
 {
-  "version": "0.0.3",
+  "version": "0.0.4",
   "name": "Amazon のスポンサー商品・広告を非表示にする",
   "description": "Amazon の検索結果からスポンサー商品・広告を消します。",
   "manifest_version": 3,
@@ -17,7 +17,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.amazon.co.jp/s?*"],
-      "js": ["src/contentScript.ts"],
+      "css": ["css/styles.css"],
       "run_at": "document_end"
     }
   ]
