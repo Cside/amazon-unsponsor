@@ -4,7 +4,7 @@
     "dev": "vite",
     "build:chrome": "vite build",
     "build:firefox": "./scripts/build-firefox.sh",
-    "package": "run-s package:*",
+    "zip": "run-s package:*",
     "package:chrome": "./scripts/package-chrome.sh",
     "package:firefox": "./scripts/package-firefox.sh",
     "lint:prettier": "prettier --check .",
