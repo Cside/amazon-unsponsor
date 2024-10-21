@@ -20,7 +20,7 @@
     "check-all": "run-p -c lint check:*"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "^1.0.14",
+    "@crxjs/vite-plugin": "2.0.0-beta.26",
     "@tsconfig/strictest": "^2.0.2",
     "@types/chrome": "^0.0.246",
     "@typescript-eslint/eslint-plugin": "^6.7.2",
