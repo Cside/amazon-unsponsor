@@ -1,8 +1,13 @@
 .rush-component > .s-card-container,
 .a-section .s-widget-container:not([cel_widget_id]),
 .amzn-safe-frame-container,
-[data-asin='']:not(.a-section, .s-result-item),
 ._dGV0c_adLabelContainer_2DLr0,
 .AdHolder {
   display: none !important;
+}
+
+/* Kindle まとめ買いの選択するやつ。オレンジの枠
+ * https://cdn-ak.f.st-hatena.com/images/fotolife/C/Cside/20250325/20250325174754.png */
+[data-asin='']:not(.a-section, .s-result-item) {
+  /* nope */
 }
