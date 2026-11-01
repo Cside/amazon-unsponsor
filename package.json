@@ -38,7 +38,7 @@
     "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
     "stylelint-value-no-unknown-custom-properties": "^4.0.0",
     "typescript": "^5.2.2",
-    "vite": "^4.4.5",
+    "vite": "^8.3.5",
     "vitest": "^0.34.2"
   },
   "license": "MIT",
