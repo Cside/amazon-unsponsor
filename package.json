@@ -44,6 +44,6 @@
   "license": "MIT",
   "dependencies": {
     "@cside/browser-extension-utils": "^0.0.6",
-    "bootstrap": "^5.3.1"
+    "bootstrap": "^5.3.8"
   }
 }
